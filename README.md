@@ -22,7 +22,7 @@ A database schema is the skeleton structure that represents the logical view of 
 
 ## Description of Tables
 
-ACCOUNT
+### ACCOUNT
 
 username: VARCHAR(30) (Primary Key)
 
@@ -34,7 +34,7 @@ security: VARCHAR(30)
 
 Answer: VARCHAR(30)
 
-CUSTOMER
+### CUSTOMER
 
 username: VARCHAR(30) (Foreign Key)
 
@@ -54,7 +54,7 @@ phone: VARCHAR(30)
 
 email: VARCHAR(30)
 
-BOOK PACKAGE
+### BOOK PACKAGE
 
 username: VARCHAR(30) (Foreign Key)
 
@@ -70,7 +70,7 @@ phone: VARCHAR(30) (Primary Key)
 
 price: VARCHAR(30)
 
-BOOK HOTEL
+### BOOK HOTEL
 
 username: VARCHAR(30) (Foreign Key)
 
@@ -92,7 +92,7 @@ phone: VARCHAR(30) (Foreign Key)
 
 price: VARCHAR(30)
 
-HOTEL
+### HOTEL
 
 hotel: VARCHAR(30) (Primary Key)
 
