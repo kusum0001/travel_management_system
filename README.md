@@ -23,48 +23,83 @@ A database schema is the skeleton structure that represents the logical view of 
 ## Description of Tables
 
 ACCOUNT
+
 username: VARCHAR(30) (Primary Key)
+
 Name: VARCHAR(30)
+
 password: VARCHAR(30)
+
 security: VARCHAR(30)
+
 Answer: VARCHAR(30)
 
 CUSTOMER
+
 username: VARCHAR(30) (Foreign Key)
+
 id: VARCHAR(30) (Primary Key)
+
 id_number: VARCHAR(30)
+
 name: VARCHAR(30)
+
 gender: VARCHAR(30)
+
 country: VARCHAR(30)
+
 address: VARCHAR(30)
+
 phone: VARCHAR(30)
+
 email: VARCHAR(30)
 
 BOOK PACKAGE
+
 username: VARCHAR(30) (Foreign Key)
+
 package: VARCHAR(30)
+
 persons: INT(10)
+
 id: VARCHAR(30) (Foreign Key)
+
 id_number: VARCHAR(30)
+
 phone: VARCHAR(30) (Primary Key)
+
 price: VARCHAR(30)
 
 BOOK HOTEL
+
 username: VARCHAR(30) (Foreign Key)
+
 hotel: VARCHAR(30) (Foreign Key)
+
 persons: INT(10)
+
 days: INT(10)
+
 Ac: VARCHAR(30)
+
 food: VARCHAR(30)
+
 Id: VARCHAR(30) (Foreign Key)
+
 id_number: VARCHAR(30)
+
 phone: VARCHAR(30) (Foreign Key)
+
 price: VARCHAR(30)
 
 HOTEL
+
 hotel: VARCHAR(30) (Primary Key)
+
 cost_per_day: INT(10)
+
 food_charges: INT(10)
+
 ac_charges: INT(10)
 
 ## CONCLUSION AND FUTURE ENHANCEMENT 
