@@ -3,6 +3,10 @@
 The Tourism Management System aims to efficiently manage customer information, hotel bookings, cancellations, and tourist destinations. It is designed to streamline administrative tasks and reduce manual effort in managing tourists, bookings, and destinations.
 
 Tourists can register by providing personal details, make reservations, book hotels and packages, and make cancellations. The project is built using Java programming language and utilizes MySQL for backend database management.
+![image](https://github.com/kusum0001/travel_management_system/assets/69834578/08dd0dbc-599e-4e58-a38c-a21d3a7eaa7e)
+
+![image](https://github.com/kusum0001/travel_management_system/assets/69834578/db139551-5350-4c6a-ba21-12e98df03356)
+
 
 ## Software Specification
 1)Integrated Development Environment: Netbeans
