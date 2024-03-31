@@ -10,7 +10,9 @@ Tourists can register by providing personal details, make reservations, book hot
 
 ## Software Specification
 1)Integrated Development Environment: Netbeans
+
 2)Database Management: MySQL Command Line Client
+
 3)Programming Language: Java
 
 ## Schema Diagram
